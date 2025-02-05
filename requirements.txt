@@ -1,0 +1,7 @@
+tensorflow
+keras
+ipykernel
+matplotlib
+opencv_python_headless
+gdown
+streamlit
