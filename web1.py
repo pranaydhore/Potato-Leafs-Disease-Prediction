@@ -20,7 +20,7 @@ app_mode = st.sidebar.selectbox('Select Page', ['Home', 'Disease Recognition', '
 if app_mode == 'Home':
     img = Image.open('desktop-wallpaper-the-future-of-agriculture-organic-farming.jpg')
     st.image(img)
-    st.markdown("<h1 style='text-align:center;'>Plant Detection System for Sustainable Agriculture</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align:center;'>Potato Leaf Disease Plant Detection System for Sustainable Agriculture</h1>", unsafe_allow_html=True)
     st.write("Welcome to the Potato Leaf Disease Plant Detection System designed to help farmers identify potato plant diseases quickly and efficiently.")
 
 # Disease Recognition Page
