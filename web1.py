@@ -21,11 +21,11 @@ if app_mode == 'Home':
     img = Image.open('desktop-wallpaper-the-future-of-agriculture-organic-farming.jpg')
     st.image(img)
     st.markdown("<h1 style='text-align:center;'>Plant Detection System for Sustainable Agriculture</h1>", unsafe_allow_html=True)
-    st.write("Welcome to the Plant Detection System designed to help farmers identify potato plant diseases quickly and efficiently.")
+    st.write("Welcome to the Potato Leaf Disease Plant Detection System designed to help farmers identify potato plant diseases quickly and efficiently.")
 
 # Disease Recognition Page
 elif app_mode == 'Disease Recognition':
-    st.header('Plant Disease Detection System For Sustainable Agriculture')
+    st.header('Potato Leaf Disease Plant Detection System For Sustainable Agriculture')
 
     test_image = st.file_uploader('Choose an image:', type=['jpg', 'jpeg', 'png'])
     
